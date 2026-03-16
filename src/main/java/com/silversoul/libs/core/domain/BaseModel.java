@@ -13,6 +13,8 @@ public class BaseModel {
     private OffsetDateTime deletedAt;
     private StatusEnum status;
 
+
+    
     
     public BaseModel() {
     }
