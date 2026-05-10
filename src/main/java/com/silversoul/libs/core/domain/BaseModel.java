@@ -5,7 +5,7 @@ import java.time.OffsetDateTime;
 import com.silversoul.libs.core.enums.StatusEnum;
 
 
-public class BaseModel {
+public abstract class BaseModel {
 
     private String id;
     private OffsetDateTime createdAt;
@@ -13,9 +13,6 @@ public class BaseModel {
     private OffsetDateTime deletedAt;
     private StatusEnum status;
 
-
-    
-    
     public BaseModel() {
     }
     public BaseModel(String id, OffsetDateTime createdAt, OffsetDateTime updatedAt, OffsetDateTime deletedAt,
